@@ -261,7 +261,7 @@ return;
 
 function captureFrame() {
 
-	outputCanvas1.getContext('2d').drawImage( , 0, 0, width, height);
+	outputCanvas1.getContext('2d').drawImage( camera1, 0, 0, width, height);
 
 	// Calculate FPS
 	let t1 = performance.now();
