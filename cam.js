@@ -255,9 +255,9 @@ return;
 			};
 		});
 
-	}
+		captureFrame();
 
-	captureFrame();
+	}
 
 }
 
