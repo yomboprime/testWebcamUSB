@@ -1,6 +1,6 @@
 
 let captureCam1 = null;
-let camera1 = nulll;
+let camera1 = null;
 let capturing = false;
 
 let outputCanvas1 = null;
