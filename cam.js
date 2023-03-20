@@ -2,11 +2,13 @@
 let captureCam1 = null;
 let camera1 = null;
 let capturing = false;
+let width = 640;
+let height = 480;
+let fps = 60;
 
 let outputCanvas1 = null;
 
 let resultLabel;
-
 let fpsLabel;
 let currentFPS = 0;
 let t0 = null;
@@ -19,11 +21,11 @@ init();
 
 function init() {
 
-	initGraphics( 640, 480, 60 );
+	initGraphics();
 
 }
 
-function initGraphics( width, height, fps ) {
+function initGraphics() {
 
 	function createOutputCanvas( w, h ) {
 	
